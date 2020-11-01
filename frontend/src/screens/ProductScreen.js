@@ -13,6 +13,7 @@ const ProductScreen = ({ match }) => {
       setProduct(data);
     };
     getProduct();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

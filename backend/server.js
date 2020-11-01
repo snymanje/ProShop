@@ -1,4 +1,3 @@
-const { computeStyles } = require("@popperjs/core");
 const express = require("express");
 const products = require("./data/products");
 
