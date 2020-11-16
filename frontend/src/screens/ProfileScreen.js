@@ -107,7 +107,7 @@ const ProfileScreen = ({ location, history }) => {
       <Col md={9}>
         <h2>My Orders</h2>
         {loadingOrders ? (
-          <loader />
+          <Loader />
         ) : errorOrders ? (
           <Message variant='danger'>{errorOrders}</Message>
         ) : (
