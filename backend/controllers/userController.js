@@ -108,7 +108,7 @@ const updateUserProfile = asyncHandler(async (req, res) => {
 // @access Private/admin
 const getUsers = asyncHandler(async (req, res) => {
   const users = await User.find({});
-  res.status(401).json(users);
+  res.status(200).json(users);
 });
 
 export { authUser, getUserProfile, registerUser, updateUserProfile, getUsers };
